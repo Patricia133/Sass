@@ -1,0 +1,31 @@
+@media (min-width: 1023px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas: "logo nav nav" " contenido contenido contenido" "footer footer footer";
+    grid-template-rows: repeat(3, 33%);
+    grid-template-columns: 150px 1fr 400 px; }
+  .logo {
+    grid-area: logo; }
+  .nav {
+    grid-area: nav; }
+  .encabezado {
+    grid-area: encabezado; }
+  footer {
+    grid-area: footer; } }
+
+li {
+  padding: 20px; }
+  li a {
+    color: red; }
+    li a:hoover {
+      background-color: lightblue; }
+
+.contenido {
+  padding: 40px;
+  font-size: 50px; }
+
+footer {
+  background-color: lightblue;
+  display: flex; }
+  footer h3 {
+    color: white; }

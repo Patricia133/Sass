@@ -1,0 +1,18 @@
+$rojo:red;
+$pTop:20px;
+$negro:black;
+
+
+
+li {
+	padding: $pTop;
+	a { 
+      color: $rojo;
+	
+    &:hoover {
+
+      background-color: lightblue;
+    }
+
+    } 
+}

@@ -21,11 +21,26 @@ li {
       background-color: lightblue; }
 
 .contenido {
-  padding: 40px;
-  font-size: 50px; }
+  background-color: lightblue;
+  text-align: center;
+  font-type: new roman; }
 
 footer {
-  background-color: lightblue;
+  background-color: blue;
   display: flex; }
-  footer h3 {
+  footer h3, footer h4, footer .h5 {
     color: white; }
+
+h3, h4, .h5 {
+  width: 700px;
+  border: 1px solid black;
+  color: blue;
+  text-align: center; }
+
+.logo {
+  height: 90px;
+  width: 90px; }
+
+.logo1 {
+  height: 100px;
+  width: 100px; }

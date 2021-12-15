@@ -1,0 +1,14 @@
+h3 {
+	width: 700px;
+	border: 1px solid black;
+	color: blue;
+	text-align: center;
+}
+
+h4 {
+	@extend h3;
+}
+.h5 {
+	
+   @extend h3;	
+}

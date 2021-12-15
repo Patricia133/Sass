@@ -1,8 +1,18 @@
 
-$p40:40px;
+
+
+$estilo: (
+  color: lightblue,
+  centro: center,
+  tFuente: 40px,
+  padding: 1rem,
+  font-type: new roman,
+
+);
 
 .contenido {
-	padding:$p40;
-	font-size:50px;
-
+	
+	background-color: map-get($estilo, color);
+	text-align: map-get($estilo, centro);
+	font-type:  map-get($estilo, font-type);
 }

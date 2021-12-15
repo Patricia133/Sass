@@ -1,0 +1,12 @@
+@mixin sizes($width, $height) {
+	height: $height;
+	width: $width;
+}
+
+.logo {
+	@include sizes(90px, 90px);
+}
+
+.logo1 {
+	@include sizes(100px, 100px);
+}
